@@ -14,13 +14,13 @@ class CategoryModel {
   static List<CategoryModel> getCategories() {
     List<CategoryModel> categories = [];
 
-    categories.add(
-      CategoryModel(
-        name: "Salad",
-        iconPath: "assets/icons/plate.svg",
-        boxColor: Color(0xff92A3FD),
-      ),
-    );
+    // categories.add(
+    //   CategoryModel(
+    //     name: "Salad",
+    //     iconPath: "assets/icons/plate.svg",
+    //     boxColor: Color(0xff92A3FD),
+    //   ),
+    // );// razon desconocida hace que vaya mas lento, se podria pensar que es por el svg
 
     categories.add(
       CategoryModel(
